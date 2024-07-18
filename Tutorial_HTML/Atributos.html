@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        Tutorial HTML en Español
+    </header>
+
+    <nav id="top-menu">
+        <a href="inicio.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="sql.html">SQL</a>
+        <a href="python.html">Python</a>
+        <a href="java.html">Java</a>
+        <a href="php.html">PHP</a>
+        <a href="howto.html">Cómo</a>
+        <a href="w3css.html">W3.CSS</a>
+        <a href="c.html">C</a>
+        <a href="cplusplus.html">C++</a>
+        <a href="csharp.html">C#</a>
+        <a href="bootstrap.html">Bootstrap</a>
+        <a href="react.html">React</a>
+        <a href="mysql.html">MySQL</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="excel.html">Excel</a>
+        <a href="xml.html">XML</a>
+        <a href="django.html">Django</a>
+    </nav>
+
+    <div class="container">
+        <nav id="side-menu">
+            <ul>
+                <li><a href="inicio.html"><i class="fas fa-home"></i>INICIO</a></li>
+                <li><a href="introduccion.html"><i class="fas fa-book-open"></i>INTRODUCCIÓN</a></li>
+                <li><a href="editores.html"><i class="fas fa-code"></i>EDITORES HTML</a></li>
+                <li><a href="basico.html"><i class="fas fa-file-alt"></i>BÁSICO</a></li>
+                <li><a href="elementos.html"><i class="fas fa-tags"></i>ELEMENTOS HTML</a></li>
+                <li><a href="atributos.html"><i class="fas fa-list"></i>ATRIBUTOS HTML</a></li>
+                <li><a href="encabezados.html"><i class="fas fa-heading"></i>ENCABEZADOS HTML</a></li>
+                <li><a href="parrafos.html"><i class="fas fa-paragraph"></i>PÁRRAFOS HTML</a></li>
+                <li><a href="estilos.html"><i class="fas fa-paint-brush"></i>ESTILOS HTML</a></li>
+                <li><a href="formato.html"><i class="fas fa-font"></i>FORMATO HTML</a></li>
+                <li><a href="citas.html"><i class="fas fa-quote-right"></i>CITAS HTML</a></li>
+                <li><a href="comentarios.html"><i class="fas fa-comments"></i>COMENTARIOS HTML</a></li>
+                <li><a href="colores.html"><i class="fas fa-palette"></i>COLORES HTML</a></li>
+                <li><a href="css.html"><i class="fab fa-css3-alt"></i>CSS HTML</a></li>
+                <li><a href="enlaces.html"><i class="fas fa-link"></i>ENLACES HTML</a></li>
+                <li><a href="imagenes.html"><i class="fas fa-image"></i>IMÁGENES HTML</a></li>
+                <li><a href="favicon.html"><i class="fas fa-star"></i>FAVICON HTML</a></li>
+                <li><a href="titulo.html"><i class="fas fa-file-signature"></i>TÍTULO DE PÁGINA HTML</a></li>
+                <li><a href="tablas.html"><i class="fas fa-table"></i>TABLAS HTML</a></li>
+                <li><a href="listas.html"><i class="fas fa-list-ul"></i>LISTAS HTML</a></li>
+                <li><a href="bloques.html"><i class="fas fa-cube"></i>BLOQUES Y EN LÍNEA HTML</a></li>
+                <li><a href="div.html"><i class="fas fa-square"></i>DIV HTML</a></li>
+                <li><a href="clases.html"><i class="fas fa-chalkboard-teacher"></i>CLASES HTML</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-container">
+            <h1>Atributos Html</h1>
+            <div class="buttons">
+                <a href="Basico.html" class="button">❮ Anterior</a>
+                <a href="Encabezado.html" class="button">Siguiente ❯</a>
+            <p>Los atributos HTML proporcionan información adicional sobre los elementos HTML.</p>
+            <h4>HTML Attributes</h4>
+</div>
+    <ul>
+            <li>
+                <p>Todos los elementos HTML pueden tener atributos.</p>
+            </li>
+            <li>
+                <p>Los atributos proporcionan información adicional sobre los elementos.</p>
+            </li>
+            <li>
+                <p>Los atributos siempre se especifican en la etiqueta de inicio.</p>
+            </li>
+            <li>
+                <p>Los atributos normalmente vienen en pares nombre/valor como: <code>nombre="valor"</code></p>
+            </li>
+        </ul>
+        <h2>El atributo href</h2>
+        
+        <p>La &lt;a&gt; etiqueta define un hipervínculo. El hrefatributo especifica la URL de la página a la que
+            lleva el vínculo:</p>
+            <img src="Imagen18.png" alt="Ejemplo de imagen" class="bordered-image">
+
+            <h3>El atributo src</h3>
+            <p>La &lt;img&gt; etiqueta se utiliza para incrustar una imagen en una página HTML. El srcatributo
+                especifica la ruta a la imagen que se mostrará:</p>
+                <img src="Imagen19.png" alt="Ejemplo de imagen" class="bordered-image">
+
+            <p>Hay dos formas de especificar la URL en el src atributo: </p>
+            <p>1. URL absoluta : enlaces a una imagen externa alojada en otro sitio web. <br> Ejemplo:
+                src="https://www.w3schools.com/images/img_girl.jpg" .</p>
+                Notas: Las imágenes externas pueden estar sujetas a derechos de autor. Si no obtiene permiso para usarlas,
+                puede estar infringiendo las leyes de derechos de autor. Además, no puede controlar las imágenes externas;
+                pueden eliminarse o modificarse repentinamente.
+                <p>2. URL relativa : enlaces a una imagen alojada en el sitio web. En este caso, la URL no incluye el nombre
+                    de dominio. Si la URL comienza sin una barra, será relativa a la página actual. Ejemplo:
+                    src="img_girl.jpg". Si la URL comienza con una barra, será relativa al dominio. Ejemplo:
+                    src="/images/img_girl.jpg".x</p>
+                <p>Consejo: casi siempre es mejor utilizar URL relativas. No se romperán si cambias de dominio.
+                </p>
+                <h3>Los atributos de ancho y alto
+                </h3>
+                <p>La &lt;img&gt; etiqueta también debe contener los atributos widthy height, que especifican el ancho y la
+                    altura de la imagen (en píxeles):</p>
+                    <img src="Imagen20.png" alt="Ejemplo de imagen" class="bordered-image">
+                <h3>El atributo alt </h3>
+                <p>El atributo requerido altpara la &lt;img&gt; etiqueta especifica un texto alternativo para una imagen, si
+                    por
+                    algún motivo no se puede mostrar la imagen. Esto puede deberse a una conexión lenta, a un error en el
+                    srcatributo o si el usuario utiliza un lector de pantalla.</p>
+                    <img src="Imagen22.png" alt="Ejemplo de imagen" class="bordered-image">
+                <h3>El atributo de estilo </h3>
+                <p>El styleatributo se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más. </p>
+                
+                <h3>El atributo lang
+                </h3>
+                <p>Siempre debe incluir el langatributo dentro de la &lt;html&gt; etiqueta para declarar el idioma de la
+                    página
+                    web. Esto tiene como objetivo ayudar a los motores de búsqueda y navegadores.
+                </p>
+                <p>El siguiente ejemplo especifica el inglés como idioma: </p>
+                <p>También se pueden añadir códigos de país al código de idioma en el lang atributo. De esta forma, los dos
+                    primeros caracteres definen el idioma de la página HTML y los dos últimos, el país.
+                    <br>El siguiente ejemplo especifica inglés como idioma y Estados Unidos como país:
+                </p>
+                <h3>El título Atributo
+                </h3>
+                <p>El titleatributo define información adicional sobre un elemento.
+                    <br>El valor del atributo de título se mostrará como información sobre herramientas cuando pase el mouse
+                    sobre el elemento:
+                </p>
+                <h3>Sugerimos: Utilice siempre atributos en minúsculas </h3>
+                <p>El estándar HTML no requiere nombres de atributos en minúsculas.
+                    <br> El atributo de título (y todos los demás atributos) se pueden escribir con mayúsculas o minúsculas
+                    como title o TITLE .
+                    <br>Sin embargo, W3C recomienda atributos en minúscula en HTML y exige atributos en minúscula para tipos
+                    de documentos más estrictos como XHTML.
+                </p>
+                <h3>Sugerimos: Siempre citar los valores de los atributos
+                </h3>
+                <p>El estándar HTML no requiere comillas alrededor de los valores de los atributos.
+                    <br> Sin embargo, W3C recomienda comillas en HTML y exige comillas para tipos de documentos más
+                    estrictos como XHTML.
+                </p>
+                <h3>¿Comillas simples o dobles? </h3>
+                <p>Las comillas dobles alrededor de los valores de atributos son las más comunes en HTML, pero también se
+                    pueden utilizar comillas simples.
+                    <br> En algunas situaciones, cuando el propio valor del atributo contiene comillas dobles, es necesario
+                    utilizar comillas simples:
+                </p>
+                <h3>Resumen del capítulo
+                </h3>
+                <ul>
+                    <li>Todos los elementos HTML pueden tener atributos
+                    </li>
+                    <li>El href atributo de &lt;a&gt; especifica la URL de la página a la que va el enlace .</li>
+                    <li>El src atributo de &lt;img&gt; especifica la ruta a la imagen que se mostrará </li>
+                    <li>Los atributos width y pro porcionan información sobre el tamaño de las imágenesheight<img> </li>
+                    <li>El alt atributo de &lt;img&gt; proporciona un texto alternativo para una imagen. </li>
+                    <li>El style atributo se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más. </li>
+                    <li>El lang atributo de la &lt;html&gt; etiqueta declara el idioma de la página web. </li>
+                    <li>El title atributo define información adicional sobre un elemento. </li>
+                </ul>
+                <div class="buttons">
+                    <a href="Basico.html" class="button">❮ Anterior</a>
+                    <a href="Encabezado.html" class="button">Siguiente ❯</a>
+                </div>
+        </div>
+        <footer>
+            <p>Creado por: Joel Pesantez</p>
+            <p>Instituto Tecnológico Superior del Azuay con Condición Universitaria</p>
+            <a href="https://www.tecazuay.edu.ec">https://www.tecazuay.edu.ec</a>
+        </footer>
+      
+       
+    </body>
+</html>

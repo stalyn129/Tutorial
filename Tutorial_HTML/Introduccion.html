@@ -1,119 +1,177 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción HTML</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <h1>Introducción html</h1>
-    <table>
-        <table id="datos">
-            <tr>
-                <td rowspan="2"><img id="logo" src="img/TEC.jpeg" alt=""></td>
-                <th>Nombres</th>   
-                <th>Apellidos</th> 
-                <th>Curso</th>
-                <th>Materia</th>
-            </tr>
-            <tr>
-                <td>Joel</td>
-                <td>Pesantez</td>
-                <td>M3A</td>
-                <td>Diseño de interfaz</td>
+    <header>
+        Tutorial HTML en Español
+    </header>
 
-            </tr>
-        </table>
+    <nav id="top-menu">
+        <a href="inicio.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="sql.html">SQL</a>
+        <a href="python.html">Python</a>
+        <a href="java.html">Java</a>
+        <a href="php.html">PHP</a>
+        <a href="howto.html">Cómo</a>
+        <a href="w3css.html">W3.CSS</a>
+        <a href="c.html">C</a>
+        <a href="cplusplus.html">C++</a>
+        <a href="csharp.html">C#</a>
+        <a href="bootstrap.html">Bootstrap</a>
+        <a href="react.html">React</a>
+        <a href="mysql.html">MySQL</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="excel.html">Excel</a>
+        <a href="xml.html">XML</a>
+        <a href="django.html">Django</a>
+    </nav>
 
-        <h2>Menú de opciones</h2>
-        <nav>
+    <div class="container">
+        <nav id="side-menu">
             <ul>
-                <li><a href="inicio.html">INICIO</a></li>
-                <li><a href="Introduccion.html">INTRODUCCIÓN</a></li>
-                <li><a href="Editores.html">EDITORES HTML</a></li>
+                <li><a href="inicio.html"><i class="fas fa-home"></i>INICIO</a></li>
+                <li><a href="introduccion.html"><i class="fas fa-book-open"></i>INTRODUCCIÓN</a></li>
+                <li><a href="editores.html"><i class="fas fa-code"></i>EDITORES HTML</a></li>
+                <li><a href="basico.html"><i class="fas fa-file-alt"></i>BÁSICO</a></li>
+                <li><a href="elementos.html"><i class="fas fa-tags"></i>ELEMENTOS HTML</a></li>
+                <li><a href="atributos.html"><i class="fas fa-list"></i>ATRIBUTOS HTML</a></li>
+                <li><a href="encabezados.html"><i class="fas fa-heading"></i>ENCABEZADOS HTML</a></li>
+                <li><a href="parrafos.html"><i class="fas fa-paragraph"></i>PÁRRAFOS HTML</a></li>
+                <li><a href="estilos.html"><i class="fas fa-paint-brush"></i>ESTILOS HTML</a></li>
+                <li><a href="formato.html"><i class="fas fa-font"></i>FORMATO HTML</a></li>
+                <li><a href="citas.html"><i class="fas fa-quote-right"></i>CITAS HTML</a></li>
+                <li><a href="comentarios.html"><i class="fas fa-comments"></i>COMENTARIOS HTML</a></li>
+                <li><a href="colores.html"><i class="fas fa-palette"></i>COLORES HTML</a></li>
+                <li><a href="css.html"><i class="fab fa-css3-alt"></i>CSS HTML</a></li>
+                <li><a href="enlaces.html"><i class="fas fa-link"></i>ENLACES HTML</a></li>
+                <li><a href="imagenes.html"><i class="fas fa-image"></i>IMÁGENES HTML</a></li>
+                <li><a href="favicon.html"><i class="fas fa-star"></i>FAVICON HTML</a></li>
+                <li><a href="titulo.html"><i class="fas fa-file-signature"></i>TÍTULO DE PÁGINA HTML</a></li>
+                <li><a href="tablas.html"><i class="fas fa-table"></i>TABLAS HTML</a></li>
+                <li><a href="listas.html"><i class="fas fa-list-ul"></i>LISTAS HTML</a></li>
+                <li><a href="bloques.html"><i class="fas fa-cube"></i>BLOQUES Y EN LÍNEA HTML</a></li>
+                <li><a href="div.html"><i class="fas fa-square"></i>DIV HTML</a></li>
+                <li><a href="clases.html"><i class="fas fa-chalkboard-teacher"></i>CLASES HTML</a></li>
             </ul>
         </nav>
-        <div id = "Contenido">
-            <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-            <h3>¿Qué es HTML?</h3>
-            <ul>
-                <li>HTML son las siglas de Hyper Text Markup Language (Lenguaje de Marcado de Hipertexto)</li>
-                <li>HTML es el lenguaje de marcado estándar para crear páginas web</li>
-                <li>HTML describe la estructura de una página web</li>
-                <li>HTML consta de una serie de elementos</li>
-                <li>Los elementos HTML le dicen al navegador cómo mostrar el contenido</li>
-                <li>Los elementos HTML etiquetan fragmentos de contenido como "esto es un encabezado", "esto es un párrafo", "esto es un enlace", etc.</li>
 
-            </ul>
-
-            <h3>Un simple documento HTML</h3>
-            <img src="img/img1.png" alt="50">
-
-            <h3>Ejemplo explicado</h3>
-            <ul>
-                <li>La declaración define que este documento es un documento HTML5"< !DOCTYPE html >"</li>
-                <li>El elemento es el elemento raíz de un HTML página< html ></li>
-                <li>El elemento contiene metainformación sobre el elemento Página HTML< head ></li>
-                <li>El elemento especifica un título para el elemento Página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página)< title ></li>
-                <li>El elemento define el elemento cuerpo del documento, y es un contenedor para todo el contenido visible, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.< body ></li>
-                <li>El elemento define un encabezado grande< h1 ></li>
-                <li>El elemento define un párrafo< p ></li>
-            </ul>
-
-            <h2>¿Qué es un elemento HTML?</h2>
-            <p>Un elemento HTML es una entidad básica que describe una parte de un documento HTML</p>
-            <p>< nombre de la etiqueta > El contenido va aquí... < /tagname ></p>
-            <p>El elemento HTML es todo, desde la etiqueta inicial hasta la etiqueta final:</p>
-            <p>< h1 >Mi Primer rumbo< /h1 ></p>
-            <p>< p>Mi primer párrafo. < /p></p>
-
-            <table border="1">
+        <div id="contenido">
+            <h1>Introducción HTML</h1>
+            <table id="datos">
                 <tr>
-                  <th>Start tag</th>
-                  <th>Element content</th>
-                  <th>End tag</th>
+                    <td rowspan="2"><img id="logo" src="img/TEC.jpeg" alt=""></td>
+                    <th>Nombres</th>   
+                    <th>Apellidos</th> 
+                    <th>Curso</th>
+                    <th>Materia</th>
                 </tr>
                 <tr>
-                  <td>&lt;h1&gt;</td>
-                  <td>Mi primer encabezado</td>
-                  <td>&lt;/h1&gt;</td>
+                    <td>Joel</td>
+                    <td>Pesantez</td>
+                    <td>M3A</td>
+                    <td>Diseño de interfaz</td>
                 </tr>
-                <tr>
-                  <td>&lt;p&gt;</td>
-                  <td>Mi primer parrafo.</td>
-                  <td>&lt;/p&gt;</td>
-                </tr>
-                <tr>
-                  <td>&lt;br&gt;</td>
-                  <td>none</td>
-                  <td>none</td>
-                </tr>
-              </table>
+            </table>
 
-              <p id="ParrafoColor">Nota: Algunos elementos HTML no tienen contenido(Como por ejemplo &lt;/br&gt;). Estos elementos se denominan elementos vacíos. ¡Los elementos vacíos no tienen etiqueta de cierre!</p>
-              <br><br><br>
+            <h2>Menú de opciones</h2>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">INICIO</a></li>
+                    <li><a href="Introduccion.html">INTRODUCCIÓN</a></li>
+                    <li><a href="Editores.html">EDITORES HTML</a></li>
+                </ul>
+            </nav>
+            <div id="Contenido">
+                <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
+                <h3>¿Qué es HTML?</h3>
+                <ul>
+                    <li>HTML son las siglas de Hyper Text Markup Language (Lenguaje de Marcado de Hipertexto)</li>
+                    <li>HTML es el lenguaje de marcado estándar para crear páginas web</li>
+                    <li>HTML describe la estructura de una página web</li>
+                    <li>HTML consta de una serie de elementos</li>
+                    <li>Los elementos HTML le dicen al navegador cómo mostrar el contenido</li>
+                    <li>Los elementos HTML etiquetan fragmentos de contenido como "esto es un encabezado", "esto es un párrafo", "esto es un enlace", etc.</li>
+                </ul>
 
-              <h2>Navegadores Web</h2>
-              <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos correctamente</p>
-              <br>
-              <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostar el documento:</p>
-              <img src="img/img2.png" alt="">
-            <hr>
-            <h2>Estructura de la página HTML</h2>
-            <p>A continuacion se muesta una visualización de la estructura de una página HTML</p>
-            
-            <table> <tr>
-                <th>tittle</th>
-                <td>titulo de la página</td>
-            </tr>
-        </table>
-        
+                <h3>Un simple documento HTML</h3>
+                <img src="img/img1.png" alt="50">
+
+                <h3>Ejemplo explicado</h3>
+                <ul>
+                    <li>La declaración define que este documento es un documento HTML5"< !DOCTYPE html >"</li>
+                    <li>El elemento es el elemento raíz de un HTML página< html ></li>
+                    <li>El elemento contiene metainformación sobre el elemento Página HTML< head ></li>
+                    <li>El elemento especifica un título para el elemento Página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página)< title ></li>
+                    <li>El elemento define el elemento cuerpo del documento, y es un contenedor para todo el contenido visible, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.< body ></li>
+                    <li>El elemento define un encabezado grande< h1 ></li>
+                    <li>El elemento define un párrafo< p ></li>
+                </ul>
+
+                <h2>¿Qué es un elemento HTML?</h2>
+                <p>Un elemento HTML es una entidad básica que describe una parte de un documento HTML</p>
+                <p>< nombre de la etiqueta > El contenido va aquí... < /tagname ></p>
+                <p>El elemento HTML es todo, desde la etiqueta inicial hasta la etiqueta final:</p>
+                <p>< h1 >Mi Primer rumbo< /h1 ></p>
+                <p>< p>Mi primer párrafo. < /p></p>
+
+                <table border="1">
+                    <tr>
+                        <th>Start tag</th>
+                        <th>Element content</th>
+                        <th>End tag</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt;</td>
+                        <td>Mi primer encabezado</td>
+                        <td>&lt;/h1&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Mi primer parrafo.</td>
+                        <td>&lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>none</td>
+                        <td>none</td>
+                    </tr>
+                </table>
+
+                <p id="ParrafoColor">Nota: Algunos elementos HTML no tienen contenido(Como por ejemplo &lt;/br&gt;). Estos elementos se denominan elementos vacíos. ¡Los elementos vacíos no tienen etiqueta de cierre!</p>
+                <br><br><br>
+
+                <h2>Navegadores Web</h2>
+                <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos correctamente</p>
+                <br>
+                <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostar el documento:</p>
+                <img src="img/img2.png" alt="">
+                <hr>
+                <h2>Estructura de la página HTML</h2>
+                <p>A continuacion se muesta una visualización de la estructura de una página HTML</p>
+                
+                <table> 
+                    <tr>
+                        <th>tittle</th>
+                        <td>titulo de la página</td>
+                    </tr>
+                </table>
+                
+            </div>
         </div>
-        
-    </table>
-</body>
+    </div>
 
-<footer>
-    <p>Creador por: Joel Pesantez</p>
-    <p>Instituto tecnologico Superior Del Azuay con Condición Universitaria</p>
-    <li><a href="https://www.tecazuay.edu.ec">www.tecazuay.edu.ec</a></li>
-</footer>
+    <footer>
+        <p>Creado por: Joel Pesantez</p>
+        <p>Instituto Tecnológico Superior del Azuay con Condición Universitaria</p>
+        <a href="https://www.tecazuay.edu.ec">https://www.tecazuay.edu.ec</a>
+    </footer>
+</body>
 </html>

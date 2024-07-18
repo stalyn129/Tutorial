@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        Tutorial HTML en Español
+    </header>
+
+    <nav id="top-menu">
+        <a href="inicio.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="sql.html">SQL</a>
+        <a href="python.html">Python</a>
+        <a href="java.html">Java</a>
+        <a href="php.html">PHP</a>
+        <a href="howto.html">Cómo</a>
+        <a href="w3css.html">W3.CSS</a>
+        <a href="c.html">C</a>
+        <a href="cplusplus.html">C++</a>
+        <a href="csharp.html">C#</a>
+        <a href="bootstrap.html">Bootstrap</a>
+        <a href="react.html">React</a>
+        <a href="mysql.html">MySQL</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="excel.html">Excel</a>
+        <a href="xml.html">XML</a>
+        <a href="django.html">Django</a>
+    </nav>
+
+    <div class="container">
+        <nav id="side-menu">
+            <ul>
+                <li><a href="inicio.html"><i class="fas fa-home"></i>INICIO</a></li>
+                <li><a href="introduccion.html"><i class="fas fa-book-open"></i>INTRODUCCIÓN</a></li>
+                <li><a href="editores.html"><i class="fas fa-code"></i>EDITORES HTML</a></li>
+                <li><a href="basico.html"><i class="fas fa-file-alt"></i>BÁSICO</a></li>
+                <li><a href="elementos.html"><i class="fas fa-tags"></i>ELEMENTOS HTML</a></li>
+                <li><a href="atributos.html"><i class="fas fa-list"></i>ATRIBUTOS HTML</a></li>
+                <li><a href="encabezados.html"><i class="fas fa-heading"></i>ENCABEZADOS HTML</a></li>
+                <li><a href="parrafos.html"><i class="fas fa-paragraph"></i>PÁRRAFOS HTML</a></li>
+                <li><a href="estilos.html"><i class="fas fa-paint-brush"></i>ESTILOS HTML</a></li>
+                <li><a href="formato.html"><i class="fas fa-font"></i>FORMATO HTML</a></li>
+                <li><a href="citas.html"><i class="fas fa-quote-right"></i>CITAS HTML</a></li>
+                <li><a href="comentarios.html"><i class="fas fa-comments"></i>COMENTARIOS HTML</a></li>
+                <li><a href="colores.html"><i class="fas fa-palette"></i>COLORES HTML</a></li>
+                <li><a href="css.html"><i class="fab fa-css3-alt"></i>CSS HTML</a></li>
+                <li><a href="enlaces.html"><i class="fas fa-link"></i>ENLACES HTML</a></li>
+                <li><a href="imagenes.html"><i class="fas fa-image"></i>IMÁGENES HTML</a></li>
+                <li><a href="favicon.html"><i class="fas fa-star"></i>FAVICON HTML</a></li>
+                <li><a href="titulo.html"><i class="fas fa-file-signature"></i>TÍTULO DE PÁGINA HTML</a></li>
+                <li><a href="tablas.html"><i class="fas fa-table"></i>TABLAS HTML</a></li>
+                <li><a href="listas.html"><i class="fas fa-list-ul"></i>LISTAS HTML</a></li>
+                <li><a href="bloques.html"><i class="fas fa-cube"></i>BLOQUES Y EN LÍNEA HTML</a></li>
+                <li><a href="div.html"><i class="fas fa-square"></i>DIV HTML</a></li>
+                <li><a href="clases.html"><i class="fas fa-chalkboard-teacher"></i>CLASES HTML</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-container">
+            <h1>Elementos Html</h1>
+            <div class="buttons">
+                <a href="Basico.html" class="button">❮ Anterior</a>
+                <a href="Atributos.html" class="button">Siguiente ❯</a>
+            </div>
+            <p>Un elemento HTML se define mediante una etiqueta de inicio, algún contenido y una etiqueta final. </p>
+            <h3>Elementos HTML </h3>
+            <p>Un elemento HTML se define mediante una etiqueta de inicio, algún contenido y una etiqueta final:</p>
+            <p>&lt;tagname&gt; El contenido va aquí... &lt;/tagname&gt;</p>
+            <p>El elemento HTML es todo, desde la etiqueta de inicio hasta la etiqueta final:</p>
+            <p>&lt;h1&gt; Mi primer encabezado &lt;/h1&gt;</p>
+            <p>&lt;p&gt; Mi primer párrafo. &lt;/p&gt;</p>
+
+            <table>
+                <tr>
+                    <th>
+                        <center>Start tag </center>
+                    </th>
+                    <th>
+                        <center>Element content</center>
+                    </th>
+                    <th>
+                        <center>End tag</center>
+                    </th>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt; </td>
+                    <td> My First Heading</td>
+                    <td>&lt;/h1&gt; </td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt; </td>
+                    <td> My first paragraph.</td>
+                    <td>&lt;/p&gt; </td>
+                </tr>
+                <tr>
+                    <td>&lt;br&gt; </td>
+                    <td> none</td>
+                    <td> none</td>
+                </tr>
+            </table>
+            <div id="nota">
+                <p class="inline">
+                <h3 class="inline">Nota: </h3>Algunos elementos HTML no tienen contenido (como el elemento &lt;br&gt;).
+                Estos elementos se denominan
+                elementos vacíos. ¡Los elementos vacíos no tienen etiqueta de cierre!</p>
+            </div>
+            <h3>Elementos HTML anidados </h3>
+            <p>Los elementos HTML se pueden anidar (esto significa que los elementos pueden contener otros elementos).
+                <br>Todos los documentos HTML constan de elementos HTML anidados.
+                <br>El siguiente ejemplo contiene cuatro elementos HTML ( &lt;html&gt;, &lt;body&gt;, &lt;h1&gt; y
+                &lt;p&gt;):
+            </p>
+
+            <img src="Imagen23.png" alt="Ejemplo de imagen" class="bordered-image">
+            <h3>Ejemplo explicado </h3>
+            <p>El &lt;html&gt; elemento es el elemento raíz y define todo el documento HTML.
+                <br>Tiene una etiqueta de inicio &lt;html&gt; y una etiqueta final &lt;/html&gt;.
+                <br>Luego, dentro del &lt;html&gt; elemento hay un &lt;body&gt; elemento:
+            </p>
+            <p>El &lt;body&gt; elemento define el cuerpo del documento.
+                <br> Tiene una etiqueta de inicio &lt;body&gt; y una etiqueta final &lt;/body&gt;.
+                <br>Luego, dentro del &lt;body&gt; elemento hay otros dos elementos: &lt;h1&gt; y &lt;p&gt; :
+            </p>
+            <p>El &lt;h1&gt; elemento define un encabezado.
+                <br> Tiene una etiqueta de inicio &lt;h1&gt; y una etiqueta de finalización &lt;/h1&gt;:
+            </p>
+            <p>El &lt;p&gt; elemento define un párrafo.
+                <br> Tiene una etiqueta de inicio &lt;p&gt; y una etiqueta de finalización &lt;p&gt; :
+            </p>
+            <h3>Nunca te saltes la etiqueta final </h3>
+            <p>Algunos elementos HTML se mostrarán correctamente, incluso si olvida la etiqueta final: </p>
+            <img src="Imagen24.png" alt="Ejemplo de imagen" class="bordered-image">
+            <p>Sin embargo, ¡nunca confíes en esto! Si olvidas la etiqueta final, pueden producirse resultados
+                inesperados y errores. </p>
+            <h3>Elementos HTML vacíos </h3>
+            <p>Los elementos HTML sin contenido se denominan elementos vacíos.
+                <br>La &lt;br&gt; etiqueta define un salto de línea y es un elemento vacío sin etiqueta de cierre:
+            </p>
+            <h3>HTML no distingue entre mayúsculas y minúsculas
+            </h3>
+            <p>Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: &lt;P&gt; significa lo mismo que
+                &lt;p&gt;.
+                <br>El estándar HTML no requiere etiquetas en minúsculas, pero W3C recomienda minúsculas en HTML y exige
+                minúsculas para tipos de documentos más estrictos como XHTML.
+            </p>
+            <img src="Imagen25.png" alt="Ejemplo de imagen" class="bordered-image">
+            <div id="nota">
+                <p>En W3Schools siempre utilizamos nombres de etiquetas en minúsculas.
+                </p>
+            </div>
+            <h3>Referencia de etiquetas HTML </h3>
+            <p>La referencia de etiquetas de W3Schools contiene información adicional sobre estas etiquetas y sus
+                atributos.
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        <center>Tag</center>
+                    </th>
+                    <th>
+                        <center>Description</center>
+                    </th>
+
+                </tr>
+                <tr>
+                    <td>&lt;html&gt; </td>
+                    <td> Defines the root of an HTML document</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt; </td>
+                    <td> Defines the document's body
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                    <td> Defines HTML headings</td>
+                </tr>
+            </table>
+            <div id="nota">
+                <p>Para obtener una lista completa de todas las etiquetas HTML disponibles, visita nuestra Referencia de
+                    etiquetas HTML .
+                </p>
+            </div>
+        </div>
+        
+        
+        </div>  
+        <footer>
+            <p>Creado por: Joel Pesantez</p>
+            <p>Instituto Tecnológico Superior del Azuay con Condición Universitaria</p>
+            <a href="https://www.tecazuay.edu.ec">https://www.tecazuay.edu.ec</a>
+        </footer>
+    </body>
+</html>
